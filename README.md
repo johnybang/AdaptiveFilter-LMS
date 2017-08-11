@@ -8,13 +8,13 @@ In April 2014, as a follow up to an interview, I decided to code a simple floati
 
 A handwritten drawing of the system including test.
 
-![Block Diagram](./ReadMeBlockDiagram.pdf)
+![Block Diagram](./ReadMeBlockDiagram.png)
 
 **Matlab/**
 
 The Matlab folder contains object-oriented matlab prototype of an adaptive filter class and an accompanying adaptive filter testing class.  To run the matlab adaptive filter test, go to the matlab command line in this directory and run the test:
 
-```matlab
+```
 >> AdaptiveFirTest.Run()
 Final Misalignment = -313.0237dB
 Final Squared Error = -307.0506dB
